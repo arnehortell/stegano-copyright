@@ -1,0 +1,6 @@
+name: stegano_copyright
+type: module
+description: 'Lägger till ett steganografiskt copyright-overlay över hela sidan.'
+core_version_requirement: ^11
+package: Custom
+version: 11.x-1.0

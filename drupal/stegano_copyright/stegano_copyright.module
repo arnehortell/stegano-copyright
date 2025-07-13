@@ -1,0 +1,10 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_page_attachments().
+ */
+function stegano_copyright_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'stegano_copyright/overlay';
+}

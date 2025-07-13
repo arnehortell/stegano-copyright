@@ -1,0 +1,21 @@
+overlay:
+  version: 1.x
+  js:
+    js/overlay.js: {}
+  css:
+    inline:
+      theme:
+        - |
+          #ahSecureOverlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 999999;
+            pointer-events: none;
+            background-repeat: repeat;
+            image-rendering: pixelated;
+          }
+  dependencies:
+    - core/drupal

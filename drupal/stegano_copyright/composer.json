@@ -1,0 +1,7 @@
+{
+  "name": "hortell/stegano_copyright",
+  "description": "stegano_copyright module",
+  "type": "drupal-module",
+  "version": "1.0.0",
+  "require": {}
+}
